@@ -1,0 +1,33 @@
+.image-recognition-wrapper {
+  color: black;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  position: relative;
+  background-color: white;
+  padding: 25px 0px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.19);
+}
+
+.image-recognition-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  right: -25px;
+  bottom: -25px;
+  background: linear-gradient(to top, #642f6c 0%, transparent 100%);
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.image-recognition-preview {
+  max-width: 100%;
+  max-height: 300px;
+  align-items: center;
+}

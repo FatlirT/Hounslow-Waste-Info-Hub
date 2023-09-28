@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  background-color: #642f6c;
+  color: #ccc;
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+/*
+@media (max-width: 600px) { .footer { font-size: 16px; padding: 10px; } }
+
+.button { display: inline-block; background-color: #fff; color: #642f6c; border-radius: 5px; }
+
+*/

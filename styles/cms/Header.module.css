@@ -1,0 +1,48 @@
+.header {
+  background: linear-gradient(#642f6c, #8e43de);
+  color: white;
+  font-family: "Lato";
+  text-align: center;
+  padding: 30px;
+  position: relative;
+}
+
+.user-info-bar-header {
+  background: white;
+  color: black;
+  font-family: "Lato";
+  text-align: right;
+  padding: 30px;
+  position: relative;
+  height: min-content;
+}
+
+.header-title {
+  margin: auto;
+  font-size: 40px;
+  color: white;
+}
+
+.header-description {
+  font-size: 17px;
+  color: white;
+}
+
+.header-account {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 30px;
+  bottom: 30px;
+  gap: 20px;
+}
+
+.header-account-user {
+  font-size: 18px;
+  color: white;
+}
+
+.header-account-button {
+  border-radius: 10px;
+}

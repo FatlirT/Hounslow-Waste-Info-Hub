@@ -1,0 +1,64 @@
+.subheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px 20px 0px;
+  color: black;
+}
+
+.markdown-guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.recycling-service-preview-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px 40px 0px;
+}
+
+.recycling-service-preview {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+  min-height: 200px;
+  border: solid 2px black;
+  border-radius: 20px;
+}
+
+.recycling-service-preview-item-image {
+  height: 100px;
+}
+
+.recycling-service-preview-bin-image {
+  height: 100px;
+  margin: 10px 0px;
+}
+
+.recycling-service-preview-infographic-image {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.form-image-upload {
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+}
+
+.form-text-field {
+  margin: 20px 0px;
+  color: black;
+}
+
+.form-submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}

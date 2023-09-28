@@ -1,0 +1,35 @@
+.subheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px 20px 0px;
+  color: black;
+}
+
+.markdown-guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.form-content-preview {
+  min-height: 100px;
+  margin: 20px 0px 40px 0px;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 20px;
+  color: black;
+}
+
+.form-text-field {
+  margin: 20px 0px;
+  color: black;
+}
+
+.form-submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}

@@ -1,0 +1,34 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hrhcms-prod-175724-authRole",
+      "UnauthRoleArn": "arn:aws:iam::238983707433:role/amplify-hrhcms-prod-175724-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::238983707433:role/amplify-hrhcms-prod-175724-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-hrhcms-prod-175724-deployment",
+      "UnauthRoleName": "amplify-hrhcms-prod-175724-unauthRole",
+      "StackName": "amplify-hrhcms-prod-175724",
+      "StackId": "arn:aws:cloudformation:eu-west-1:238983707433:stack/amplify-hrhcms-prod-175724/48d76630-cbf7-11ed-93eb-06d9eded7957",
+      "AmplifyAppId": "dwlpk3366aktk",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-hrhcms-prod-175724-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "apihrhcmsF": {
+          "deploymentBucketName": "amplify-hrhcms-prod-175724-deployment",
+          "s3Key": "amplify-builds/apihrhcmsF-6c4d7279385a735a6835-build.zip"
+        }
+      },
+      "auth": {
+        "hrhcms": {}
+      },
+      "storage": {
+        "apihrhcmsS": {},
+        "hrhcmsimages": {}
+      },
+      "api": {
+        "apihrhcms": {}
+      }
+    }
+  }
+}

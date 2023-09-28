@@ -1,0 +1,11 @@
+.recycling-service-accordion-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.recycling-service-accordion-grid-col {
+  display: grid;
+  grid-template-rows: min-content min-content min-content min-content min-content min-content;
+  grid-gap: 20px;
+}

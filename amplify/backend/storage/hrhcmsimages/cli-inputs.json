@@ -1,0 +1,9 @@
+{
+  "resourceName": "hrhcmsimages",
+  "policyUUID": "a51fa8c7",
+  "bucketName": "hrhcmsimages",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": ["CREATE_AND_UPDATE", "READ", "DELETE"],
+  "groupAccess": {}
+}

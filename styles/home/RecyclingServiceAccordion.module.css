@@ -1,0 +1,62 @@
+.recycling-service-accordion-wrapper {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 20px;
+  border-color: #642f6c;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(79, 40, 110, 0.2),
+    0 6px 20px 0 rgba(107, 58, 144, 0.3);
+}
+
+.recycling-service-accordion-wrapper:hover {
+  filter: brightness(95%);
+}
+
+.recycling-service-accordion {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.recycling-service-accordion-item-image {
+  height: 100px;
+}
+
+.recycling-service-accordion-title {
+  color: black;
+  padding: 0px 0px 10px 0px;
+  font-size: 20px;
+}
+
+.recycling-service-accordion-description {
+  color: black;
+  font-size: 19px;
+}
+
+.recycling-service-accordion-content-hidden {
+  color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size: 18px;
+}
+
+.recycling-service-accordion-content-displayed {
+  color: black;
+  max-height: 1000px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in;
+  font-size: 18px;
+}
+
+.recycling-service-accordion-bin-image {
+  height: 100px;
+  margin: 10px 0px;
+}
+
+.recycling-service-accordion-infographic-image {
+  width: 100%;
+  margin: 10px 0px;
+}

@@ -1,0 +1,82 @@
+.subheading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px 20px 0px;
+  color: black;
+}
+
+.markdown-guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.form-fact-preview {
+  display: grid;
+  grid-template-rows: min-content min-content;
+  grid-gap: 10px;
+  min-height: 100px;
+  margin: 20px 0px 40px 0px;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+}
+
+.form-text-field {
+  margin: 20px 0px;
+  color: black;
+}
+
+.form-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  gap: 20px;
+}
+
+.fact-list {
+  display: grid;
+  grid-gap: 40px;
+}
+
+.fact-list-item {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-gap: 30px;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 20px;
+}
+
+.fact-list-fact {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  text-align: center;
+  color: black;
+}
+
+.fact-list-buttons-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.fact-list-button {
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.fact-list-id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}

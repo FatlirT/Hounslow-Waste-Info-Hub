@@ -1,0 +1,25 @@
+.navbar-offset {
+  height: 78px;
+}
+
+.header {
+  background: linear-gradient(#642f6c, #8e43de);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.header-title {
+  margin: auto;
+  color: white;
+  font-size: 40px;
+}
+
+.header-description {
+  font-size: 17px;
+  color: white;
+  margin: 20px 0px;
+}

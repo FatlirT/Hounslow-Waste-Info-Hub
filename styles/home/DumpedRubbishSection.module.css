@@ -1,0 +1,46 @@
+.dumped-rubbish-container {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 30px;
+  background-color: white;
+  border-radius: 36px;
+}
+
+.dumped-rubbish-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dumped-rubbish-image {
+  height: 300px;
+}
+
+.dumped-rubbish-text {
+  font-size: 18px;
+  color: black;
+}
+
+.dumped-rubbish-text li::marker {
+  color: #af63bb;
+}
+
+.dumped-rubbish-report {
+  margin: 10px 0px;
+  font-size: 18px;
+  color: black;
+}
+
+.dumped-rubbish-pay {
+  margin: 10px 0px;
+  font-size: 18px;
+  color: black;
+}
+
+.dumped-rubbish-button {
+  background-color: #af63bb;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+}
