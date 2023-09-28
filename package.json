@@ -1,0 +1,40 @@
+{
+  "name": "mgrp_black",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^4.4.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "@next/font": "13.1.5",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@types/uuid": "^9.0.0",
+    "animate.css": "^4.1.1",
+    "antd": "^5.2.1",
+    "aws-amplify": "^5.0.22",
+    "aws-sdk": "^2.1346.0",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.5",
+    "eslint-config-prettier": "^8.6.0",
+    "next": "^13.2.4",
+    "prettier": "^2.8.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.4.3",
+    "react-markdown": "^8.0.5",
+    "reactjs-popup": "^2.0.5",
+    "typescript": "4.9.4"
+  }
+}
